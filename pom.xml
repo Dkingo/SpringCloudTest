@@ -11,6 +11,7 @@
         <module>springcloud-api</module>
         <module>springcloud-provider-dept-8001</module>
         <module>springcloud-consumer-dept-80</module>
+        <module>springcloud-eureka-7001</module>
     </modules>
 
     <!--    打包方式-->
@@ -27,19 +28,14 @@
         <dependencies>
             <!--springcloud的依赖-->
             <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-dependencies -->
+            <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-dependencies -->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
-                <version>Greenwich.SR1</version>
+                <version>Greenwich.SR3</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-<!--            <dependency>-->
-<!--                <groupId>org.springframework.boot</groupId>-->
-<!--                <artifactId>spring-boot-dependencies</artifactId>-->
-<!--                <version>2.1.3.RELEASE</version>-->
-<!--                <scope>import</scope>-->
-<!--            </dependency>-->
 
             <dependency>
                 <groupId>mysql</groupId>
@@ -76,7 +72,7 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-web</artifactId>
-                <version>2.1.13.RELEASE</version>
+                <version>2.1.4.RELEASE</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
